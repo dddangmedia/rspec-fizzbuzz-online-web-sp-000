@@ -23,4 +23,7 @@ def fizzbuzz(int)
       "Fizz"
     when int % 5 == 0 
       "Buzz"
-    
+    else 
+      "nil"
+  end
+end
