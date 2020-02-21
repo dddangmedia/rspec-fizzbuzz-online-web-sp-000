@@ -14,3 +14,9 @@ def fizzbuzz(int)
   end
   
 end
+
+def fizzbuzz(int)
+  case
+    when int % 3 == 0 && int % 5 == 0
+      "FizzBuzz"
+    when
